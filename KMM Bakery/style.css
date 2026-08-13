@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f2;
+  color: #4b3025;
+}
+
+nav {
+  background-color: #6b4030;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffd6c0;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f7d8c7;
+}
+
+.hero h2 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #6b4030;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: #9b5c43;
+}
+
+.menu {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: bold;
+  color: #9b5c43;
+}
+
+.about {
+  background-color: #f7d8c7;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.contact {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+	background-color: #6b4030;
+	color: white;
+	text-align: centre;
+	padding: 25px;
+}
+
+/* Cupcake page */
+
+.hero img {
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.product img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+	background-color: #6b4030;
+	color: white;
+	text-align: centre;
+	padding: 25px;
+}
