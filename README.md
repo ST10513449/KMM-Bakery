@@ -89,7 +89,7 @@ KMM Bakery/
 ## Technologies Used
 
 * **HTML5** — Website structure
-* **CSS3** — Website styling and layout
+* **CSS** — Website styling and layout
 * **JPEG Images** — Logo, screenshots, and product images
 
 ## How to Run the Website
