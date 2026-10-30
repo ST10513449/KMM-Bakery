@@ -1,67 +1,82 @@
-# KMM Bakery
+KMM Bakery Website
 
-**Student Name:** Keoratile Matabane
-**Student Number:** ST10513349
-**Module:** WEB Development – WEDE5020
+Student Name: Keoratile Matabane
+Student Number: ST10513349
+Module: Web Development – WEDE5020
 
-## Project Objectives
+1. Project Overview
 
-The main objective of the **KMM Bakery website** is to create a professional online presence for the bakery. The website will allow customers to browse the menu, view product information and prices, and place an order without needing to visit the bakery in person.
+KMM Bakery is a bakery website developed to establish a professional online presence for the bakery. The website showcases freshly baked products, provides product information and prices, and allows customers to place orders and make enquiries online.
 
-Another objective is to make the ordering process simple and convenient by allowing customers to:
+The website aims to provide customers with a simple, attractive, accessible, and user-friendly experience while helping KMM Bakery promote its products and communicate with potential customers.
 
-* Browse different bakery products.
-* View product information and prices.
-* Select multiple treats in one order.
-* Choose the quantity of each product.
-* Select available flavors.
-* Choose cake sizes where applicable.
-* Easily access the bakery's contact information.
-* Place an order through the website.
+2. Project Objectives
 
-The website is designed to provide customers with a simple, attractive, and user-friendly experience while helping KMM Bakery promote its products online.
+The main objectives of the KMM Bakery website are to:
 
-##
+Create a professional online presence for KMM Bakery.
+Allow customers to browse different bakery products.
+Display product descriptions, images, and prices.
+Allow customers to select multiple treats in one order.
+Enable customers to choose product quantities.
+Allow customers to select available flavours.
+Provide cake size options where applicable.
+Make ordering simple and convenient.
+Provide an enquiry form for customer questions and special requests.
+Improve communication between customers and the bakery.
+Ensure the website is mobile-friendly and responsive.
+3. About the Project
 
-# KMM Bakery
+KMM Bakery is a website featuring a selection of freshly baked treats, including cupcakes, brownies, cookies, cinnamon rolls, and custom cakes.
 
-A simple bakery website for **KMM Bakery**, created to showcase freshly baked treats, provide product information, and allow customers to place orders.
+Customers can browse the bakery's products, view prices, learn about the business, place orders, and submit enquiries through the contact page.
 
-## About the Project
+The website also provides direct communication through WhatsApp and Instagram.
 
-KMM Bakery is a bakery website featuring a selection of cupcakes, brownies, cookies, cinnamon rolls, and custom cakes. Customers can browse the menu, learn more about the bakery, view prices, and place an order.
+4. Website Features
 
-## Features
+The website includes the following features:
 
-* Home page with a bakery introduction
-* Navigation menu
-* Bakery logo
-* Product menu with images and prices
-* Individual pages for different products
-* About KMM Bakery section
-* Contact information
-* Order button
-* Instagram and WhatsApp contact details
-* Footer with copyright information
+Home Page: Introduces KMM Bakery and highlights its products.
+Navigation Menu: Allows customers to move between website pages.
+Bakery Logo: Displays the KMM Bakery brand identity.
+Product Menu: Showcases bakery products with images and prices.
+Individual Product Pages: Provides additional product information.
+About Section: Introduces KMM Bakery and its services.
+Order Page: Allows customers to place bakery orders.
+Enquiry and Contact Page: Allows customers to submit questions, special requests, and product enquiries.
+AJAX Form Submission: Allows customers to submit enquiries without reloading or leaving the contact page.
+Gmail Integration: Uses FormSubmit to forward customer enquiries to the bakery's Gmail address.
+WhatsApp Integration: Allows customers to contact the bakery directly.
+Instagram Integration: Provides access to the bakery's Instagram page.
+Responsive Design: Uses CSS media queries to improve the website experience on mobile phones and other screen sizes.
+Footer: Displays copyright information.
+5. Products and Pricing
+Product	Price
+Cupcakes	R15 each
+Brownies	R20 each
+Cookies	R15 each
+Cinnamon Rolls	R25 each
+Custom Cakes	From R150
+6. Technologies Used
 
-## Products
+The following technologies and tools are used in the development of the website:
 
-| Product        |     Price |
-| -------------- | --------: |
-| Cupcakes       |  R15 each |
-| Brownies       |  R20 each |
-| Cookies        |  R15 each |
-| Cinnamon Rolls |  R25 each |
-| Custom Cakes   | From R150 |
-
-## Project Structure
-
-```text
+HTML5: Used to structure the website and its content.
+CSS3: Used for styling, layouts, colours, and responsive design.
+JavaScript: Used to add interactive functionality.
+AJAX (Fetch API): Used to submit customer enquiries without reloading the page.
+FormSubmit: Used to process and forward customer enquiry form submissions to Gmail.
+JPEG Images: Used for the bakery logo and product images.
+Gmail: Used to receive customer enquiries.
+7. Project Structure
+text
 KMM Bakery/
 │
 ├── KMM.html
 ├── Menu.html
 ├── Order.html
+├── Contact.html
 ├── Cupcakes.html
 ├── Brownies.html
 ├── Cookies.html
@@ -84,36 +99,66 @@ KMM Bakery/
         ├── CookieM.jpg
         ├── CRM.jpg
         └── CakesM.jpg
-```
 
-## Technologies Used
+8. Enquiry Form and Gmail Integration
 
-* **HTML5** — Website structure
-* **CSS** — Website styling and layout
-* **JPEG Images** — Logo, screenshots, and product images
+The website includes an enquiry form on the Contact page to allow customers to communicate with KMM Bakery.
 
-## How to Run the Website
+Customers can provide their:
 
-1. Download or clone the project.
-2. Keep all HTML files, images, and CSS files in their correct folders.
-3. Make sure the `Font` and `Images` folders are located in the main project folder.
-4. Open `KMM.html` in a web browser.
-5. Use the navigation menu to browse the different sections and pages.
+Full name.
+Email address.
+Phone number.
+Enquiry type.
+Message or special request.
 
-## Contact
+The form uses JavaScript Fetch API (AJAX) to submit information to FormSubmit.
 
-**KMM Bakery**
+FormSubmit processes the enquiry and forwards it to the bakery's Gmail address. Customers receive a success or error message depending on the submission response.
 
-* **WhatsApp:** +27 76 081 5437
-* **Instagram:** @YummyKMMummyBakery
+Business enquiry email: kmmbakery@gmail.com
 
-## Purpose
+Email activation with FormSubmit is required before the website can receive enquiries.
 
-The purpose of this website is to give KMM Bakery an online presence where customers can view available baked goods, check prices, learn about the bakery, and place orders.
+9. Mobile Responsiveness
 
-## Copyright
+The website is designed to provide a user-friendly experience across different devices.
+
+CSS media queries are used to adjust the website layout for smaller screens, particularly smartphones and tablets.
+
+The responsive design aims to ensure that:
+
+Navigation links remain accessible.
+Text is readable on mobile screens.
+Images resize appropriately.
+Forms fit within the screen.
+Buttons are easy to tap.
+Customers can browse products and submit enquiries conveniently.
+10. How to Run the Website
+Download or clone the project.
+Keep all HTML files, CSS files, JavaScript code, and images in their correct folders.
+Ensure that the Font and Images folders are located in the main project folder.
+Open KMM.html in a web browser.
+Use the navigation menu to browse the website.
+Open the Contact page to view and test the enquiry form.
+
+Note: The enquiry form requires an internet connection and FormSubmit email activation. The website should be hosted online for customers to access it.
+
+11. Contact Information
+
+KMM Bakery
+
+WhatsApp: +27 76 081 5437
+Instagram: @YummyKMMummyBakery
+Email: kmmbakery@gmail.com
+12. Project Purpose
+
+The purpose of the KMM Bakery website is to provide the bakery with an online platform where customers can explore available baked goods, view product prices, learn about the business, place orders, and submit enquiries.
+
+The website also aims to improve customer convenience, strengthen communication, and promote the bakery's products through an accessible online presence.
+
+13. Copyright
 
 © 2026 KMM Bakery. All rights reserved.
 
-
-
+Developed by: Keoratile Matabane
