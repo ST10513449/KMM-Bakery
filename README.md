@@ -1,224 +1,208 @@
 
-# 🧁 KMM Bakery Website
-
-**Student Name:** Keoratile Matabane  
-**Student Number:** ST10513349  
-**Module:** Web Development - WEDE5020
-
----
+# KMM Bakery Website
 
 ## 1. Project Overview
 
-KMM Bakery is an interactive bakery website developed to establish a professional online presence for the business. The website allows customers to explore bakery products, view prices, learn about the bakery, submit enquiries, and prepare orders through an interactive ordering page.
+KMM Bakery is a bakery website developed to showcase the bakery's products and provide customers with an easy and convenient way to explore the menu, place orders and make enquiries.
 
-The website uses HTML5, CSS3, and JavaScript to provide structured content, visual styling, hover effects, interactive form controls, and automatic order calculations. The contact page also uses asynchronous form submission through the FormSubmit service.
+The website presents information about the bakery, displays available baked goods and provides direct communication channels through WhatsApp, Instagram and an online enquiry form.
 
 ## 2. Project Objectives
 
-The main objectives of the KMM Bakery website are to:
+The main objectives of the website are to:
 
-- Establish a professional online presence for KMM Bakery.
-- Showcase bakery products with images and prices.
-- Allow customers to navigate between different website pages.
-- Provide individual pages for different bakery products.
-- Enable customers to select multiple products in one order.
-- Allow customers to choose product flavours and quantities.
-- Provide cake size options for custom cakes.
-- Calculate order totals automatically.
-- Allow customers to specify collection dates and special instructions.
-- Provide an online enquiry form.
-- Improve user interaction through hover effects and interactive controls.
-- Make business information and contact details accessible to customers.
+- Create an attractive and user-friendly online presence for KMM Bakery.
+- Display the bakery's products and their prices.
+- Allow customers to place orders through an online order form.
+- Provide customers with information about the bakery.
+- Make it easier for customers to contact the bakery.
+- Improve customer interaction through interactive website features.
 
 ## 3. Website Features
 
-### 3.1 Navigation Bar
+### 3.1 Home Page
 
-The navigation bar provides links to the main website pages:
+The homepage introduces KMM Bakery and welcomes visitors with the message:
 
-- Home
-- Menu
-- About
+"So Freshly Baked, Just for YOU."
+
+It includes:
+- A navigation bar for accessing different website pages.
+- A hero section introducing the bakery.
+- A call-to-action button that directs customers to the order page.
+- Featured bakery products with images and prices.
+- An About section introducing the bakery.
+- A contact section displaying the bakery's contact information.
+- A footer containing the bakery's copyright information.
+
+### 3.2 Menu Page
+
+The menu allows customers to explore the different baked products offered by KMM Bakery.
+
+Products include:
+- Cupcakes
+- Brownies
+- Cookies
+- Cinnamon Rolls
+- Custom Cakes
+
+Each product category provides customers with an opportunity to explore the available products.
+
+### 3.3 About Page
+
+The About page provides more information about KMM Bakery and its purpose.
+
+It includes:
+- An introduction to the bakery.
+- The bakery's mission and vision.
+- The bakery's values.
+- A product showcase featuring images of selected baked goods.
+- A call-to-action section encouraging customers to explore the menu, place an order or contact the bakery.
+
+The About page includes three interactive navigation buttons:
+- Explore Our Menu
+- Place an Order
 - Contact Us
 
-The links allow customers to move between the different sections and pages of the website.
+### 3.4 Order Page
 
-### 3.2 Interactive Product Menu
+The order page allows customers to select products and provide the information needed for an order.
 
-The homepage displays five bakery product categories:
+Features include:
+- Customer name input.
+- Selection of up to five products.
+- Flavour selection for each product.
+- Cake size selection for custom cakes.
+- Quantity selection.
+- Collection date selection.
+- An allergy and special instructions field.
+- A displayed order total.
 
-| Product | Price |
-|---|---|
-| Cupcakes | R15 each |
-| Brownies | R20 each |
-| Cookies | R15 each |
-| Cinnamon Rolls | R25 each |
-| Custom Cakes | From R150 |
+JavaScript is used for order-related calculations and interactive behaviour through the `Calculations.js` file.
 
-Each product is displayed with an image, name, price, and link to its respective product page.
+### 3.5 Contact Page
 
-### 3.3 Interactive Elements and Hover Effects
+The contact page provides customers with different ways to communicate with KMM Bakery.
 
-The website incorporates interactive elements to improve usability and navigation.
+It includes:
 
-These include:
+**Contact Information**
+- WhatsApp: +27 76 081 5437
+- Instagram: @YummyKMMummyBakery
 
-- Navigation links to other website pages.
-- Clickable product links.
-- Buttons linking to the ordering page.
-- CSS hover effects that provide visual feedback when users move their cursor over interactive elements.
-- Select menus and input fields for entering order information.
-- Clickable WhatsApp and Instagram links.
-- Interactive enquiry form controls.
+**Opening Hours**
+- Monday to Friday: 08:00 – 17:00
+- Weekends: 10:00 – 17:00
+- Public Holidays: 10:00 – 13:00
 
-### 3.4 About Section
+**Online Enquiry Form**
 
-The About section introduces KMM Bakery and describes its selection of freshly baked treats, including cupcakes, cookies, cinnamon rolls, custom cakes, and brownies.
-
-It presents the bakery's focus on providing delicious treats for everyday enjoyment and special occasions.
-
-### 3.5 Online Ordering System
-
-The website includes a dedicated ordering page, `Order.html`, where customers can prepare an order by selecting products and entering their order details.
-
-The ordering page includes the following features:
-
-- **Customer name:** Allows customers to enter their name.
-- **Product selection:** Provides five order slots for selecting bakery products.
-- **Flavour selection:** Provides a dropdown menu for choosing a flavour for each selected item.
-- **Cake size selection:** Offers size options for custom cakes.
-- **Quantity selection:** Allows customers to specify the quantity of each product.
-- **Collection date:** Allows customers to choose their preferred collection date.
-- **Allergies and special instructions:** Provides a text area for additional information.
-- **Order total:** Displays the calculated total price.
-- **Place Order button:** Provides a control for initiating the order process.
-
-### 3.6 Automatic Price Calculations
-
-The ordering page links to an external JavaScript file named `Calculations.js`.
-
-This script is intended to handle the ordering calculations and interactive behaviour of the page.
-
-The system is designed to calculate the total cost based on the selected products, quantities, and applicable cake sizes.
-
-The total is displayed on the page so customers can review their order cost before proceeding.
-
-### 3.7 Contact Information
-
-The contact page provides customers with ways to communicate with KMM Bakery.
-
-- **WhatsApp:** +27 76 081 5437
-- **Instagram:** @YummyKMMummyBakery
-
-The page includes links for opening WhatsApp and visiting the bakery's Instagram profile.
-
-### 3.8 Opening Hours
-
-The contact page displays the bakery's operating hours:
-
-- **Weekdays:** 08:00–17:00
-- **Weekends:** 10:00–17:00
-- **Public holidays:** 10:00–13:00
-
-### 3.9 Online Enquiry Form
-
-The contact page includes an enquiry form for customers who have questions or special requests.
-
-The form collects:
-
+Customers can submit enquiries by providing:
 - Full name
 - Email address
 - Phone number
 - Enquiry type
 - Message
 
-Customers can select an enquiry category, including general enquiries, custom cakes, product prices, special orders, delivery, and other requests.
+The form uses AJAX-style submission through JavaScript Fetch API and FormSubmit. This allows form information to be submitted asynchronously without requiring the page to reload.
 
-Required fields and email input validation help ensure that the necessary information is provided.
+The form also provides success and error messages to inform customers about the submission status.
 
-### 3.10 AJAX-Style Form Submission Using FormSubmit
+## 4. Interactive Features
 
-The enquiry form uses JavaScript's `fetch()` API to send form data asynchronously to the FormSubmit service.
+The website incorporates several interactive features to improve the user experience.
 
-This implementation includes:
+These include:
 
-- Collecting form data using the `FormData` interface.
-- Sending an asynchronous HTTP request.
-- Processing the JSON response.
-- Displaying a success message when submission succeeds.
-- Displaying an error message when submission fails.
-- Temporarily disabling the submit button during submission.
-- Resetting the form after successful submission.
+- **Navigation links:** Allow users to move between the different website pages.
+- **Hover effects:** Buttons, navigation links and product elements respond visually when users hover over them.
+- **Clickable product cards:** Allow customers to access individual product pages.
+- **Call-to-action buttons:** Direct customers to the menu, order and contact pages.
+- **Order calculations:** JavaScript supports the calculation of order totals based on selected products and quantities.
+- **Dynamic form feedback:** The contact form displays success or error messages after submission.
+- **Form validation:** Required fields help ensure customers provide the necessary information before submitting enquiries.
+- **Responsive styling:** CSS media queries help adapt the website layout to different screen sizes.
 
-This approach provides feedback without requiring a traditional page reload.
+## 5. Technologies Used
 
-Successful email delivery depends on the external service and correct recipient configuration.
+The website was developed using the following technologies:
 
-## 4. Technologies Used
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structures the website content and pages. |
+| CSS3 | Controls the website's appearance, layout, styling and hover effects. |
+| JavaScript | Adds interactivity and handles order calculations and form submission. |
+| Fetch API | Allows asynchronous submission of contact form information. |
+| FormSubmit | Handles the delivery of contact form submissions through email. |
 
-The website uses the following technologies and services:
+## 6. Project File Structure
 
-- **HTML5:** Structures the website pages, navigation, product cards, forms, and content.
-- **CSS3:** Controls layout, visual presentation, and hover effects.
-- **JavaScript:** Provides interactive behaviour and order calculations.
-- **Fetch API:** Sends enquiry data asynchronously.
-- **FormData API:** Collects form values for submission.
-- **FormSubmit:** Processes and forwards enquiry submissions to the configured email recipient.
+The project is organised into different files and folders to make the website easier to manage.
 
-## 5. Website Structure
+```text
+KMM-Bakery/
+│
+├── KMM.html
+├── Menu.html
+├── About.html
+├── Order.html
+├── contact.html
+│
+├── Cupcakes.html
+├── Brownies.html
+├── Cookies.html
+├── CR.html
+├── Cakes.html
+│
+├── style.css
+├── Calculations.js
+│
+├── Font/
+│   └── Logo.jpeg
+│
+└── Images/
+    └── Main/
+        ├── CupcakeM.jpg
+        ├── BrownieM.jpg
+        ├── CookieM.jpg
+        ├── CRM.jpg
+        └── CakesM.jpg
+```
 
-The project contains the following files and directories:
+## 7. Target Audience
 
-- `KMM.html` - Main homepage.
-- `Menu.html` - Menu page.
-- `About.html` - About page.
-- `contact.html` - Contact information and enquiry form.
-- `Order.html` - Interactive ordering page.
-- `Cupcakes.html` - Cupcakes product page.
-- `Brownies.html` - Brownies product page.
-- `Cookies.html` - Cookies product page.
-- `CR.html` - Cinnamon rolls product page.
-- `Cakes.html` - Custom cakes product page.
-- `Calculations.js` - JavaScript for order calculations and ordering interactions.
-- `style.css` - Website styling and hover effects.
-- `Font/` - Directory containing the bakery logo.
-- `Images/Main/` - Directory containing homepage product images.
+The website is intended for customers interested in purchasing freshly baked products from KMM Bakery.
 
-## 6. Target Audience
+This includes:
+- Individuals looking for baked treats.
+- Customers ordering cakes for special occasions.
+- Customers interested in customised bakery products.
+- Individuals who want to enquire about prices, products or special orders.
 
-The target audience includes customers who want to browse bakery products, compare prices, prepare orders, enquire about custom cakes, and contact the bakery.
+## 8. Expected Benefits
 
-The website caters to individuals purchasing baked goods for personal enjoyment, celebrations, and special occasions.
+The website is expected to provide the following benefits:
 
-## 7. Expected Benefits
+- Increased online visibility for KMM Bakery.
+- Easier access to product information and prices.
+- Improved communication between the bakery and its customers.
+- A convenient way for customers to submit enquiries.
+- A more organised process for collecting order information.
+- A professional online representation of the bakery.
 
-The KMM Bakery website aims to:
+## 9. Future Improvements
 
-- Increase the bakery's online visibility.
-- Present products in an organised and attractive format.
-- Make product information and prices easier to access.
-- Improve navigation through interactive elements.
-- Help customers prepare orders with multiple products.
-- Reduce manual price calculations through an automatic total.
-- Provide convenient access to contact information.
-- Allow customers to submit enquiries online.
-- Improve the overall customer browsing experience.
+Possible future improvements include:
 
-## 8. Future Improvements
+- Adding an online payment system.
+- Introducing customer accounts and order tracking.
+- Adding a database to store customer orders.
+- Including customer reviews and testimonials.
+- Improving the website's mobile experience.
+- Adding an automated order confirmation system.
 
-Potential future improvements include:
+## 10. Conclusion
 
-- Integrating online payment functionality.
-- Connecting orders to a database or order management system.
-- Sending automatic order confirmation messages.
-- Providing customers with order tracking.
-- Improving and testing mobile responsiveness.
-- Adding customer reviews and testimonials.
-- Providing product availability information.
-- Enhancing accessibility and keyboard navigation.
+The KMM Bakery website provides an online platform where customers can explore bakery products, learn about the business, submit enquiries and provide their order details.
 
-## 9. Conclusion
-
-The KMM Bakery website combines HTML5, CSS3, and JavaScript to create an interactive platform for showcasing bakery products, preparing orders, and communicating with customers.
-
-The product menu, hover effects, ordering controls, automatic price calculations, and asynchronous enquiry form contribute to a user-friendly experience. The project demonstrates how front-end web technologies and an external form-processing service can support the online presence and customer communication needs of a bakery.
+By combining HTML, CSS and JavaScript, the website offers an informative and interactive experience while supporting the bakery's communication and customer engagement.
