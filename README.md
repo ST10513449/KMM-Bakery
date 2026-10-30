@@ -1,6 +1,10 @@
 
 # KMM Bakery Website
 
+**Student Name:** Keoratile Matabane  
+**Student Number:** ST10513349  
+**Module:** Web Development - WEDE5020
+
 ## 1. Project Overview
 
 KMM Bakery is a bakery website developed to showcase the bakery's products and provide customers with an easy and convenient way to explore the menu, place orders and make enquiries.
