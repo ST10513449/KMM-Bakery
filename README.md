@@ -1,4 +1,4 @@
-KMM Bakery Website
+🧁 KMM Bakery Website
 
 Student Name: Keoratile Matabane
 Student Number: ST10513349
@@ -27,11 +27,15 @@ Improve communication between customers and the bakery.
 Ensure the website is mobile-friendly and responsive.
 3. About the Project
 
-KMM Bakery is a website featuring a selection of freshly baked treats, including cupcakes, brownies, cookies, cinnamon rolls, and custom cakes.
+KMM Bakery is a website featuring a selection of freshly baked treats, including:
+
+Cupcakes
+Brownies
+Cookies
+Cinnamon Rolls
+Custom Cakes
 
 Customers can browse the bakery's products, view prices, learn about the business, place orders, and submit enquiries through the contact page.
-
-The website also provides direct communication through WhatsApp and Instagram.
 
 4. Website Features
 
@@ -44,12 +48,12 @@ Product Menu: Showcases bakery products with images and prices.
 Individual Product Pages: Provides additional product information.
 About Section: Introduces KMM Bakery and its services.
 Order Page: Allows customers to place bakery orders.
-Enquiry and Contact Page: Allows customers to submit questions, special requests, and product enquiries.
-AJAX Form Submission: Allows customers to submit enquiries without reloading or leaving the contact page.
-Gmail Integration: Uses FormSubmit to forward customer enquiries to the bakery's Gmail address.
+Enquiry and Contact Page: Allows customers to submit questions and special requests.
+AJAX Form Submission: Allows customers to submit enquiries without reloading the page.
+Gmail Integration: Uses FormSubmit to forward customer enquiries to Gmail.
 WhatsApp Integration: Allows customers to contact the bakery directly.
 Instagram Integration: Provides access to the bakery's Instagram page.
-Responsive Design: Uses CSS media queries to improve the website experience on mobile phones and other screen sizes.
+Responsive Design: Uses CSS media queries to improve the website experience on mobile phones and tablets.
 Footer: Displays copyright information.
 5. Products and Pricing
 Product	Price
@@ -59,16 +63,14 @@ Cookies	R15 each
 Cinnamon Rolls	R25 each
 Custom Cakes	From R150
 6. Technologies Used
-
-The following technologies and tools are used in the development of the website:
-
-HTML5: Used to structure the website and its content.
-CSS3: Used for styling, layouts, colours, and responsive design.
-JavaScript: Used to add interactive functionality.
-AJAX (Fetch API): Used to submit customer enquiries without reloading the page.
-FormSubmit: Used to process and forward customer enquiry form submissions to Gmail.
-JPEG Images: Used for the bakery logo and product images.
-Gmail: Used to receive customer enquiries.
+Technology	Purpose
+HTML5	Structures the website content.
+CSS3	Styles the website and creates responsive layouts.
+JavaScript	Adds interactive functionality.
+AJAX (Fetch API)	Submits customer enquiries without reloading the page.
+FormSubmit	Processes and forwards customer enquiries to Gmail.
+JPEG Images	Displays the bakery logo and product images.
+GitHub	Stores and manages the project source code.
 7. Project Structure
 text
 KMM Bakery/
@@ -104,21 +106,21 @@ KMM Bakery/
 
 The website includes an enquiry form on the Contact page to allow customers to communicate with KMM Bakery.
 
-Customers can provide their:
+Customers can provide the following information:
 
-Full name.
-Email address.
-Phone number.
-Enquiry type.
-Message or special request.
+Full name
+Email address
+Phone number
+Enquiry type
+Message or special request
 
-The form uses JavaScript Fetch API (AJAX) to submit information to FormSubmit.
+The form uses JavaScript Fetch API (AJAX) to submit information to FormSubmit without refreshing the page.
 
-FormSubmit processes the enquiry and forwards it to the bakery's Gmail address. Customers receive a success or error message depending on the submission response.
+FormSubmit processes the enquiry and forwards it to the bakery's Gmail address.
 
-Business enquiry email: kmmbakery@gmail.com
+Business Email: kmmbakery@gmail.com
 
-Email activation with FormSubmit is required before the website can receive enquiries.
+Note: FormSubmit email activation is required before enquiries can be received.
 
 9. Mobile Responsiveness
 
@@ -135,12 +137,12 @@ Forms fit within the screen.
 Buttons are easy to tap.
 Customers can browse products and submit enquiries conveniently.
 10. How to Run the Website
-Download or clone the project.
-Keep all HTML files, CSS files, JavaScript code, and images in their correct folders.
-Ensure that the Font and Images folders are located in the main project folder.
+Download or clone the project repository from GitHub.
+Keep all HTML, CSS, JavaScript, and image files in their correct folders.
+Ensure that the Font and Images folders are located in the correct project directory.
 Open KMM.html in a web browser.
-Use the navigation menu to browse the website.
-Open the Contact page to view and test the enquiry form.
+Use the navigation menu to browse the different website pages.
+Visit the Contact page to test the enquiry form.
 
 Note: The enquiry form requires an internet connection and FormSubmit email activation. The website should be hosted online for customers to access it.
 
